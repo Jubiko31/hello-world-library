@@ -1,4 +1,5 @@
 ! hello world in Fortran 90
-program helloworld
-    print *, "Hello, World!"
-end program helloworld
+program hello
+    print *, 'Hello, World!'
+end program hello
+! gfortran hello.f90 -o hello
